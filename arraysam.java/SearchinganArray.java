@@ -3,12 +3,12 @@ public class SearchinganArray{
         int [] numbers = {10,20,30,40,50};
         int search = 40;
         boolean found = false;
-        int index= -1;
+        int index= -1; //forindex
 
         for(int i = 0; i< numbers.length;i++){
             if (numbers [i] == search){
                 found = true;
-                index = i;
+                index = i; // for index
                 break;
             }
         }
